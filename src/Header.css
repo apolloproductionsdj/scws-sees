@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+
+
+.header > h1 {
+  font-family: 'Diplomata SC', cursive;
+  font-weight: normal;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  position: sticky;
+  box-shadow: 0px 5px 8px  -9px rgba(0, 0, 0, 0.75);  
+}
+
+.header > img {
+  height: 60px;
+  object-fit: contain;
+}
+
+.header > h3 {
+  margin-left: 10px;
+}
+/* 
+.header {
+    background-color: white;
+    box-shadow: 0px 5px 8px  -9px rgba(0, 0, 0, 0.75); 
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header_logo {
+    width: 100px;
+    object-fit: contain;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .header_optionLineOne {
+    font-size: 10px;
+  }
+  
+  .header_optionBasket {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header_BasketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header_optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
+  .header_link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .header_searchIcon {
+    background-color: orange;
+    padding: 5px;
+    height: 22px !important;
+  }
+  
+  .header_search {
+    display: flex;
+    flex: 1;
+  }
+  
+  .header_searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+  
+  .header_nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header > img {
+    height: 60px;
+    object-fit: contain;
+  } */
