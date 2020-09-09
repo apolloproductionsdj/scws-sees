@@ -12,21 +12,61 @@ import { IconButton } from '@material-ui/core';
 
 function Header() {
     return (
-        <div className="header">
-            <h1>SCWS</h1>
-            <img 
-              src="https://t3.ftcdn.net/jpg/02/70/91/20/240_F_270912040_74qCtqgqhW87QIVrO2xdkos87SnNI3wF.jpg"
-              alt=""
-            />
-              <HomeIcon fontSize="large" />
-              <h3>Home</h3>
-              <PhoneIcon fontSize="large" />
-              <h3>623-734-6815</h3>       
-              <BuildIcon />
-              <LocalCarWashIcon />
-              <InvertColorsIcon />
-              <InfoIcon />
+      <div className="header">
+        <div className="header__left">
+          <h1>SCWS</h1>
+          <img 
+            src="https://t3.ftcdn.net/jpg/02/70/91/20/240_F_270912040_74qCtqgqhW87QIVrO2xdkos87SnNI3wF.jpg"
+            alt=""
+          />
         </div>
+        <div className="header__center">
+          <div className="header__center1">
+            <div className="header__centerIcon">
+              <HomeIcon fontSize="large" />
+            </div>
+            <div className="header__centerText">
+              <h3>Home</h3>
+            </div>
+          </div>
+          <div className="header__center2">
+            <div className="header__centerIcon">
+              <PhoneIcon fontSize="large" />
+            </div>
+            <div className="header__centerText">
+              <h3>623-734-6815</h3>
+            </div>
+          </div>
+        </div>
+        <div className="header__right">
+          <div className="header__options">
+            <IconButton>
+              <span><BuildIcon /></span>
+              <span className="header__optionLineTwo">Tools</span>
+            </IconButton>
+          </div>
+          <div className="header__options">
+          <IconButton>
+              <span><LocalCarWashIcon /></span>
+              <span className="header__optionLineTwo">Equipment</span>
+            </IconButton>
+          </div>
+          <div className="header__options">
+            <IconButton>
+              <span><InvertColorsIcon /></span>
+              <span className="header__optionLineTwo">Chemical</span>
+            </IconButton>
+          </div>
+          <div className="header__options">
+            <IconButton>
+              <span><InfoIcon /></span>
+              <span className="header__optionLineTwo">About Us</span>
+            </IconButton>
+          </div>
+        </div>
+          </div>
+          
+    
     )
 }
 
