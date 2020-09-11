@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+
+
+.image > img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.image > h1 {
+  font-family: 'Diplomata SC', cursive;
+  font-weight: normal;
+}

@@ -38,32 +38,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="header__right">
-          <div className="header__options">
-            <IconButton>
-              <span><BuildIcon /></span>
-              <span className="header__optionLineTwo">Tools</span>
-            </IconButton>
-          </div>
-          <div className="header__options">
-          <IconButton>
-              <span><LocalCarWashIcon /></span>
-              <span className="header__optionLineTwo">Equipment</span>
-            </IconButton>
-          </div>
-          <div className="header__options">
-            <IconButton>
-              <span><InvertColorsIcon /></span>
-              <span className="header__optionLineTwo">Chemical</span>
-            </IconButton>
-          </div>
-          <div className="header__options">
-            <IconButton>
-              <span><InfoIcon /></span>
-              <span className="header__optionLineTwo">About Us</span>
-            </IconButton>
-          </div>
-        </div>
+        
           </div>
           
     

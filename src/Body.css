@@ -1,4 +1,15 @@
 .body {
     height: 100vh;
     background: linear-gradient(rgb(173, 78, 50), rgb(223, 211, 43));
+    /* flex: 0.7; */
 }
+
+.body__main {
+    display: flex;
+
+}
+
+.body__mainImage {
+    padding: 20px;
+}
+
